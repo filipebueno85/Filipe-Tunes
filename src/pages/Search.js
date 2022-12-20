@@ -89,6 +89,7 @@ class Search extends React.Component {
                     <div className="pesquisa-album">
                       <img src={ alb.artworkUrl100 } alt={ alb.name } />
                       <div>
+                        <p>{ alb.artistName }</p>
                         <p>{`${alb.collectionName}`}</p>
                         <p>{`Lançamento:  ${alb.releaseDate.split('-').splice(0, 1)}`}</p>
                       </div>
